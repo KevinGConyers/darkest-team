@@ -1,0 +1,14 @@
+{
+  "name": "darkest-team",
+  "version": "1.0.0",
+  "description": "This is a team builder for Darkest Dungeon",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Kevin Conyers",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

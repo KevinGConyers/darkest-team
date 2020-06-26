@@ -1,0 +1,80 @@
+{
+	"heroes":
+	{ 
+		"Abomination": 
+		{  
+			"image": "/images/heroes/abomination_roster.png",
+			"abbr": "ABOM"
+		},
+		"Antiquarian": 
+		{
+			"image": "/images/heroes/antiquarian_roster.png",
+			"abbr": "ANT"
+		},
+		"Arbalest": 
+		{
+			"image": "/images/heroes/arbalest_roster.png",
+			"abbr": "ARB"
+		},
+		"Bounty Hunter": 
+		{
+			"image": "/images/heroes/bounty_hunter_roster.png",
+			"abbr": "BH"
+		},
+		"Crusader":
+		{
+			"image": "/images/heroes/crusader_roster.png",
+			"abbr": "DEUS"
+		},
+		"Grave Robber": 
+		{
+			"image": "/images/heroes/grave_robber_roster.png",
+			"abbr" : "WIFE"
+		},
+		"Hellion": 
+		{
+			"image": "/images/heroes/hellion_roster.png",
+			"abbr": "HELL"
+		},
+		"Highwayman": 
+		{
+			"image": "/images/heroes/highwayman_roster.png",
+			"abbr": "HWM"
+		},
+		"Houndmaster": 
+		{
+			"image": "/images/heroes/houndmaster_roster.png",
+			"abbr": "HOUND"
+		},
+		"Jester": 
+		{
+			"image": "/images/heroes/jester_roster.png",
+			"abbr": "JEST"
+		},
+		"Leper": 
+		{
+			"image": "/images/heroes/leper_roster.png",
+			"abbr": "LEP"
+		},
+		"Man at Arms": 
+		{
+			"image": "/images/heroes/man_at_arms_roster.png",
+			"abbr": "GRANDPA"
+		}, 
+		"Occultist": 
+		{
+			"image": "/images/heroes/occultist_roster.png",
+			"abbr": "OCC"
+		}, 
+		"Plague Doctor": 
+		{
+			"image": "/images/heroes/plague_doctor_roster.png",
+			"abbr": "PD"
+		}, 
+		"Vestal": 
+		{
+			"image": "/images/heroes/vestal_roster.png",
+			"abbr": "VEST"
+		}
+	}	
+}

@@ -52,14 +52,14 @@
 	</body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script>
-		const herodata = "/data/heros.json";
+		const herodata = "/data/heroes.json";
 	</script>
 	<script>
 		function updateImage(select_id, image_id) {
 			console.log(select_id);
 			hero_name = document.getElementById(select_id).value;
 			$.getJSON(herodata, function(data){
-				new_img_src = data.heros[hero_name].image;
+				new_img_src = data.heroes[hero_name].image;
 				console.log(hero_name);
 				console.log(new_img_src);
 				document.getElementById(image_id).src = new_img_src;
@@ -107,7 +107,7 @@ dropdown4.prop('selectedIndex', 0);
 
 // Populate dropdown with list of provinces
 $.getJSON(herodata, function (data) {
-	$.each(data.heros, function (key, entry) {
+	$.each(data.heroes, function (key, entry) {
 		dropdown1.append($('<option></option>').attr('value', key).text(key));
 		dropdown2.append($('<option></option>').attr('value', key).text(key));
 		dropdown3.append($('<option></option>').attr('value', key).text(key));

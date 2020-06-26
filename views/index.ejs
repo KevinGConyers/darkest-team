@@ -1,19 +1,118 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Test</title>
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-  </head>
-  <body>
-    <div class="container">
-      <fieldset>
-        <form action="/" method="post">
-          <input name="city" type="text" class="ghost-input" placeholder="Enter a City" required>
-          <input type="submit" class="ghost-button" value="Get Weather">
-        </form>
-      </fieldset>
-    </div>
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<title>Test</title>
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<!--<div class="container"> 
+	  <div class="gallery">
+	  <img id="Hero1" src="/images/heros/crusader_roster.png" alt="Crusader" width="96" height="96">
+	  <select
+	  </div>
+	  <div class="gallery">
+	  <img id="Hero2" src="/images/heros/crusader_roster.png" alt="Crusader" width="96" height="96">
+	  </div>
+	  <div class="gallery">
+	  <img id="Hero3"  src="/images/heros/crusader_roster.png" alt="Crusader" width="96" height="96">
+	  </div>
+	  <div class="gallery">
+	  <img id="Hero4" src="/images/heros/crusader_roster.png" alt="Crusader" width="96" height="96">
+	  </div>
+	  </div> -->
+	  <div class="hero_form">
+		  <div class="gallery">
+			  <img id="Hero4" src="/images/heros/vestal_roster.png" alt="Crusader" width="96" height="96">
+		  </div>
+		  <div class="gallery">
+			  <img id="Hero3" src="/images/heros/plague_doctor_roster.png" alt="Crusader" width="96" height="96">
+		  </div>
+		  <div class="gallery">
+			  <img id="Hero2" src="/images/heros/highwayman_roster.png" alt="Crusader" width="96" height="96">
+		  </div>
+		  <div class="gallery">
+			  <img id="Hero1" src="/images/heros/crusader_roster.png" alt="Crusader" width="96" height="96">
+		  </div>
+		  <br></br>
+	  </div>
+	  <form class="hero_form" action="/" method="post">
+		  <select class="hero_select" name="hero4" id="hero4_select"></select>
+		  <select class="hero_select" name="hero3" id="hero3_select"></select>
+		  <select class="hero_select" name="hero2" id="hero2_select"></select>
+		  <select class="hero_select" name="hero1" id="hero1_select"></select>
+		  <br></br>
+		  <input type="submit" class="ghost-button" value="Generate Preview">
+	  </form>
+
+
+
+
+	</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script>
+		const herodata = "/data/heros.json";
+	</script>
+	<script>
+		function updateImage(select_id, image_id) {
+			console.log(select_id);
+			hero_name = document.getElementById(select_id).value;
+			$.getJSON(herodata, function(data){
+				new_img_src = data.heros[hero_name].image;
+				console.log(hero_name);
+				console.log(new_img_src);
+				document.getElementById(image_id).src = new_img_src;
+			});
+		}
+		
+			$('#hero1_select').change(function(){
+				updateImage("hero1_select", "Hero1");
+		})
+			$('#hero2_select').change(function(){
+				updateImage("hero2_select", "Hero2");
+		})
+			$('#hero3_select').change(function(){
+				updateImage("hero3_select", "Hero3");
+		})
+			$('#hero4_select').change(function(){
+				updateImage("hero4_select", "Hero4");
+		})
+
+
+
+	</script>
+
+<script type=text/javascript>
+let dropdown1 = $('#hero1_select');
+let dropdown2 = $('#hero2_select');
+let dropdown3 = $('#hero3_select');
+let dropdown4 = $('#hero4_select');
+
+dropdown1.empty();
+dropdown2.empty();
+dropdown3.empty();
+dropdown4.empty();
+
+dropdown1.append('<option selected="true" disabled>Choose Hero</option>');
+dropdown2.append('<option selected="true" disabled>Choose Hero</option>');
+dropdown3.append('<option selected="true" disabled>Choose Hero</option>');
+dropdown4.append('<option selected="true" disabled>Choose Hero</option>');
+
+dropdown1.prop('selectedIndex', 0);
+dropdown2.prop('selectedIndex', 0);
+dropdown3.prop('selectedIndex', 0);
+dropdown4.prop('selectedIndex', 0);
+
+
+// Populate dropdown with list of provinces
+$.getJSON(herodata, function (data) {
+	$.each(data.heros, function (key, entry) {
+		dropdown1.append($('<option></option>').attr('value', key).text(key));
+		dropdown2.append($('<option></option>').attr('value', key).text(key));
+		dropdown3.append($('<option></option>').attr('value', key).text(key));
+		dropdown4.append($('<option></option>').attr('value', key).text(key));
+	})
+});
+</script>
 </html>

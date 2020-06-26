@@ -9,7 +9,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 .container {
-  width: 600px;
   margin: 0 auto;
 }
 fieldset {
@@ -71,4 +70,41 @@ fieldset {
 }
 p {
   color: #E64A19;
+}
+div.gallery {
+  border: 1px solid #ccc;
+  margin: 5px;
+  float: left;
+  width: 128px;
+  height: 128px;
+}
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+div.portrait {
+	width: 128px;
+	height: auto;	
+	float: left;
+}
+.hero_form {
+	width: 600px;
+	height: auto;
+	float: left;
+}
+
+select.hero_select {
+  border: 1px solid #ccc;
+  margin: 5px;
+  float: left;
+  width: 128px;
+  height: auto;
+  background-color: transparent;
+  min-width: 50px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+
 }

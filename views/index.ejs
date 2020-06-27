@@ -24,16 +24,16 @@
 	  </div> -->
 	  <div class="hero_form">
 		  <div class="gallery">
-			  <img id="Hero4" src="/images/heros/vestal_roster.png" alt="Crusader" width="96" height="96">
+			  <img id="Hero4" src="/images/heroes/vestal_roster.png" alt="Position Four" width="96" height="96">
 		  </div>
 		  <div class="gallery">
-			  <img id="Hero3" src="/images/heros/plague_doctor_roster.png" alt="Crusader" width="96" height="96">
+			  <img id="Hero3" src="/images/heroes/plague_doctor_roster.png" alt="Position Three" width="96" height="96">
 		  </div>
 		  <div class="gallery">
-			  <img id="Hero2" src="/images/heros/highwayman_roster.png" alt="Crusader" width="96" height="96">
+			  <img id="Hero2" src="/images/heroes/highwayman_roster.png" alt="Position Two" width="96" height="96">
 		  </div>
 		  <div class="gallery">
-			  <img id="Hero1" src="/images/heros/crusader_roster.png" alt="Crusader" width="96" height="96">
+			  <img id="Hero1" src="/images/heroes/crusader_roster.png" alt="Position One" width="96" height="96">
 		  </div>
 		  <br></br>
 	  </div>
@@ -56,12 +56,9 @@
 	</script>
 	<script>
 		function updateImage(select_id, image_id) {
-			console.log(select_id);
 			hero_name = document.getElementById(select_id).value;
 			$.getJSON(herodata, function(data){
 				new_img_src = data.heroes[hero_name].image;
-				console.log(hero_name);
-				console.log(new_img_src);
 				document.getElementById(image_id).src = new_img_src;
 			});
 		}

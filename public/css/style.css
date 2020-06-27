@@ -109,7 +109,7 @@ select.hero_select {
   transition: all 0.1s ease-in-out;
 }
 
-div.abilities {
+div.ability_pane {
   border: 5px solid #ccc;
   margin: 5px;
   float: left;

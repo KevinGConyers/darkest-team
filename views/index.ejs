@@ -43,29 +43,33 @@
 		  <select class="hero_select" name="hero2" id="hero2_select"></select>
 		  <select class="hero_select" name="hero1" id="hero1_select"></select>
 		  <br></br>
-		  <div class="abilities">
-			  <select class="ability_select" name="h4a1" id="hero4_ability1"></select>
-			  <select class="ability_select" name="h4a2" id="hero4_ability2"></select>
-			  <select class="ability_select" name="h4a3" id="hero4_ability3"></select>
-			  <select class="ability_select" name="h4a4" id="hero4_ability4"></select>
+		  <div class="ability_pane">
+			  <div class="ability_pane" id="abil4">
+				  <select class="ability_select" name="h4a1" id="hero4_ability1"></select>
+				  <select class="ability_select" name="h4a2" id="hero4_ability2"></select>
+				  <select class="ability_select" name="h4a3" id="hero4_ability3"></select>
+				  <select class="ability_select" name="h4a4" id="hero4_ability4"></select>
+			  </div>
 		  </div>
-		  <div class="abilities">
-			  <select class="ability_select" name="h3a1" id="hero3_ability1"></select>
-			  <select class="ability_select" name="h3a2" id="hero3_ability2"></select>
-			  <select class="ability_select" name="h3a3" id="hero3_ability3"></select>
-			  <select class="ability_select" name="h3a4" id="hero3_ability4"></select>
+		  <div class="ability_pane">
+			  <div class="ability_pane" id="abil3">
+				  <select class="ability_select" name="h3a1" id="hero3_ability1"></select>
+				  <select class="ability_select" name="h3a2" id="hero3_ability2"></select>
+				  <select class="ability_select" name="h3a3" id="hero3_ability3"></select>
+				  <select class="ability_select" name="h3a4" id="hero3_ability4"></select>
+			  </div>
 		  </div>
-		  <div class="abilities">
-			  <select class="ability_select" name="h2a1" id="hero2_ability1"></select>
-			  <select class="ability_select" name="h2a2" id="hero2_ability2"></select>
-			  <select class="ability_select" name="h2a3" id="hero2_ability3"></select>
-			  <select class="ability_select" name="h2a4" id="hero2_ability4"></select>
+		  <div class="ability_pane">
+			  <div class="ability_pane" id="abil2">
+				  <select class="ability_select" name="h2a1" id="hero2_ability1"></select>
+				  <select class="ability_select" name="h2a2" id="hero2_ability2"></select>
+				  <select class="ability_select" name="h2a3" id="hero2_ability3"></select>
+				  <select class="ability_select" name="h2a4" id="hero2_ability4"></select>
+			  </div>
 		  </div>
-		  <div class="abilities" id="abil1">
-			  <select class="ability_select" name="h1a1" id="hero1_ability1"></select>
-			  <select class="ability_select" name="h1a2" id="hero1_ability2"></select>
-			  <select class="ability_select" name="h1a3" id="hero1_ability3"></select>
-			  <select class="ability_select" name="h1a4" id="hero1_ability4"></select>
+		  <div class="ability_pane">
+			  <div class="ability_pane" id="abil1">
+			  </div>
 		  </div>
 		  <br></br>
 		  <input type="submit" class="ghost-button" value="Generate Preview">
@@ -78,9 +82,6 @@
 	</body>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script>
-		const herodata = "/data/heroes.json";
-	</script>
-	<script>
 		function updateImage(select_id, image_id) {
 			hero_name = document.getElementById(select_id).value;
 			$.getJSON(herodata, function(data){
@@ -88,19 +89,59 @@
 				document.getElementById(image_id).src = new_img_src;
 			});
 		}
+function getAbilities(hero_name, callback) {
+	$.getJSON(herodata, function(data) {
+		callback(data.heroes[hero_name].abilities);
+	});
+}
+function generateAbilitySelection(select_id, ability_pane_id) {
+	hero_name = document.getElementById(select_id).value;
+	let ability_pane = $('#'+ability_pane_id);
+	ability_pane.empty();
+	ability_pane.append($('<select></select>').attr({'id': ability_pane_id + "-1", "class": "ability_select"}));
+	ability_pane.append($('<select></select>').attr({'id': ability_pane_id + "-2", "class": "ability_select"}));
+	ability_pane.append($('<select></select>').attr({'id': ability_pane_id + "-3", "class": "ability_select"}));
+	ability_pane.append($('<select></select>').attr({'id': ability_pane_id + "-4", "class": "ability_select"}));
+	for( i = 1; i <= 4; i++) {
+		let cur_select = ability_pane_id + "-" + i.toString();
+		getAbilities(hero_name, function(data) {
+			sel = $('#'+cur_select);
+			num = 1;
+			$.each(data, function(key) {
+				console.log(key);
+				//		if(num == i) {
+				//			sel.append($('<option></option>').attr({'value': key, 'selected': 'selected'}).text(key));
+				//		} else {
+				sel.append($('<option></option>').attr({'value': key}).text(key));
+				//		}
+				num++;
+			});
+		});
+	} 
+}
 
 $('#hero1_select').change(function(){
 	updateImage("hero1_select", "Hero1");
+	generateAbilitySelection("hero1_select", "abil1");
 	document.getElementById('abil1').style.display='block';
 })
 $('#hero2_select').change(function(){
 	updateImage("hero2_select", "Hero2");
+	generateAbilitySelection("hero2_select", "abil2");
+	document.getElementById('abil2').style.display='block';
+
 })
 $('#hero3_select').change(function(){
 	updateImage("hero3_select", "Hero3");
+	generateAbilitySelection("hero3_select", "abil3");
+	document.getElementById('abil3').style.display='block';
+
 })
 $('#hero4_select').change(function(){
 	updateImage("hero4_select", "Hero4");
+	generateAbilitySelection("hero4_select", "abil4");
+	document.getElementById('abil4').style.display='block';
+
 })
 
 
@@ -108,7 +149,8 @@ $('#hero4_select').change(function(){
 	</script>
 
 	<script type=text/javascript>
-		let dropdown1 = $('#hero1_select');
+		const herodata = "/data/heroes.json";
+let dropdown1 = $('#hero1_select');
 let dropdown2 = $('#hero2_select');
 let dropdown3 = $('#hero3_select');
 let dropdown4 = $('#hero4_select');
@@ -138,7 +180,10 @@ $.getJSON(herodata, function (data) {
 		dropdown4.append($('<option></option>').attr('value', key).text(key));
 	})
 });
-	document.getElementById('abil1').style.display='none';
+document.getElementById('abil1').style.display='none';
+document.getElementById('abil2').style.display='none';
+document.getElementById('abil3').style.display='none';
+document.getElementById('abil4').style.display='none';
 
 	</script>
 </html>

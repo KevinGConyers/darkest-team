@@ -72,7 +72,7 @@ p {
   color: #E64A19;
 }
 div.gallery {
-  border: 1px solid #ccc;
+  border: 5px solid #ccc;
   margin: 5px;
   float: left;
   width: 128px;
@@ -88,13 +88,14 @@ div.portrait {
 	float: left;
 }
 .hero_form {
+	border: 5px solid #ccc;
 	width: 600px;
 	height: auto;
 	float: left;
 }
 
 select.hero_select {
-  border: 1px solid #ccc;
+  border: 5px solid #ccc;
   margin: 5px;
   float: left;
   width: 128px;
@@ -106,5 +107,19 @@ select.hero_select {
   -ms-transition: all 0.1s ease-in-out;
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
+}
 
+div.abilities {
+  border: 5px solid #ccc;
+  margin: 5px;
+  float: left;
+  width: 128px;
+  height: auto;
+  background-color: transparent;
+  min-width: 50px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }

@@ -4,77 +4,437 @@
 		"Abomination": 
 		{  
 			"image": "/images/heroes/abomination_roster.png",
-			"abbr": "ABOM"
+			"abbr": "ABOM",
+			"abilities": {
+				"Absolution" : 
+				{ 
+					"image": "/images/abilities/abomination/absolution.png",
+				},
+				"Beast's Bile": {
+					"image": "/images/abilities/abomination/beast's_bile.png"
+				},
+				"Manacles": {
+					"image": "/images/abilities/abomination/manacles.png"
+				},
+				"Rage": {
+					"image":"/images/abilities/abomination/rage.png"
+				},
+				"Rake": {
+					"image": "/images/abilities/abomination/rake.png"
+				},
+				"Slam": {
+					"image": "/images/abilities/abomination/slam.png"
+				},
+				"Transform": {
+					"image":"/images/abilities/abomination/transform.png"
+				}
+			}
 		},
 		"Antiquarian": 
 		{
 			"image": "/images/heroes/antiquarian_roster.png",
-			"abbr": "ANT"
+			"abbr": "ANT",
+			"abilities": {
+				"Absolution" : 
+				{ 
+					"image": "/images/abilities/abomination/absolution.png",
+				},
+				"Beast's Bile": {
+					"image": "/images/abilities/abomination/beast's_bile.png"
+				},
+				"Manacles": {
+					"image": "/images/abilities/abomination/manacles.png"
+				},
+				"Rage": {
+					"image":"/images/abilities/abomination/rage.png"
+				},
+				"Rake": {
+					"image": "/images/abilities/abomination/rake.png"
+				},
+				"Slam": {
+					"image": "/images/abilities/abomination/slam.png"
+				},
+				"Transform": {
+					"image":"/images/abilities/abomination/transform.png"
+				}
+			}
 		},
 		"Arbalest": 
 		{
 			"image": "/images/heroes/arbalest_roster.png",
-			"abbr": "ARB"
+			"abbr": "ARB",
+			"abilities": {
+				"Absolution" : 
+				{ 
+					"image": "/images/abilities/abomination/absolution.png",
+				},
+				"Beast's Bile": {
+					"image": "/images/abilities/abomination/beast's_bile.png"
+				},
+				"Manacles": {
+					"image": "/images/abilities/abomination/manacles.png"
+				},
+				"Rage": {
+					"image":"/images/abilities/abomination/rage.png"
+				},
+				"Rake": {
+					"image": "/images/abilities/abomination/rake.png"
+				},
+				"Slam": {
+					"image": "/images/abilities/abomination/slam.png"
+				},
+				"Transform": {
+					"image":"/images/abilities/abomination/transform.png"
+				}
+			}
 		},
 		"Bounty Hunter": 
 		{
 			"image": "/images/heroes/bounty_hunter_roster.png",
-			"abbr": "BH"
+			"abbr": "BH",
+			"abilities": {
+				"Absolution" : 
+				{ 
+					"image": "/images/abilities/abomination/absolution.png",
+				},
+				"Beast's Bile": {
+					"image": "/images/abilities/abomination/beast's_bile.png"
+				},
+				"Manacles": {
+					"image": "/images/abilities/abomination/manacles.png"
+				},
+				"Rage": {
+					"image":"/images/abilities/abomination/rage.png"
+				},
+				"Rake": {
+					"image": "/images/abilities/abomination/rake.png"
+				},
+				"Slam": {
+					"image": "/images/abilities/abomination/slam.png"
+				},
+				"Transform": {
+					"image":"/images/abilities/abomination/transform.png"
+				}
+			}
 		},
 		"Crusader":
 		{
 			"image": "/images/heroes/crusader_roster.png",
-			"abbr": "DEUS"
+			"abbr": "DEUS",
+			"abilities": {
+				"Absolution" : 
+				{ 
+					"image": "/images/abilities/abomination/absolution.png",
+				},
+				"Beast's Bile": {
+					"image": "/images/abilities/abomination/beast's_bile.png"
+				},
+				"Manacles": {
+					"image": "/images/abilities/abomination/manacles.png"
+				},
+				"Rage": {
+					"image":"/images/abilities/abomination/rage.png"
+				},
+				"Rake": {
+					"image": "/images/abilities/abomination/rake.png"
+				},
+				"Slam": {
+					"image": "/images/abilities/abomination/slam.png"
+				},
+				"Transform": {
+					"image":"/images/abilities/abomination/transform.png"
+				}
+			}
 		},
 		"Grave Robber": 
 		{
 			"image": "/images/heroes/grave_robber_roster.png",
-			"abbr" : "WIFE"
+			"abbr" : "WIFE",
+			"abilities": {
+				"Absolution" : 
+				{ 
+					"image": "/images/abilities/abomination/absolution.png",
+				},
+				"Beast's Bile": {
+					"image": "/images/abilities/abomination/beast's_bile.png"
+				},
+				"Manacles": {
+					"image": "/images/abilities/abomination/manacles.png"
+				},
+				"Rage": {
+					"image":"/images/abilities/abomination/rage.png"
+				},
+				"Rake": {
+					"image": "/images/abilities/abomination/rake.png"
+				},
+				"Slam": {
+					"image": "/images/abilities/abomination/slam.png"
+				},
+				"Transform": {
+					"image":"/images/abilities/abomination/transform.png"
+				}
+			}
 		},
 		"Hellion": 
 		{
 			"image": "/images/heroes/hellion_roster.png",
-			"abbr": "HELL"
+			"abbr": "HELL",
+			"abilities": {
+				"Absolution" : 
+				{ 
+					"image": "/images/abilities/abomination/absolution.png",
+				},
+				"Beast's Bile": {
+					"image": "/images/abilities/abomination/beast's_bile.png"
+				},
+				"Manacles": {
+					"image": "/images/abilities/abomination/manacles.png"
+				},
+				"Rage": {
+					"image":"/images/abilities/abomination/rage.png"
+				},
+				"Rake": {
+					"image": "/images/abilities/abomination/rake.png"
+				},
+				"Slam": {
+					"image": "/images/abilities/abomination/slam.png"
+				},
+				"Transform": {
+					"image":"/images/abilities/abomination/transform.png"
+				}
+			}
 		},
 		"Highwayman": 
 		{
 			"image": "/images/heroes/highwayman_roster.png",
-			"abbr": "HWM"
+			"abbr": "HWM",
+			"abilities": {
+				"Absolution" : 
+				{ 
+					"image": "/images/abilities/abomination/absolution.png",
+				},
+				"Beast's Bile": {
+					"image": "/images/abilities/abomination/beast's_bile.png"
+				},
+				"Manacles": {
+					"image": "/images/abilities/abomination/manacles.png"
+				},
+				"Rage": {
+					"image":"/images/abilities/abomination/rage.png"
+				},
+				"Rake": {
+					"image": "/images/abilities/abomination/rake.png"
+				},
+				"Slam": {
+					"image": "/images/abilities/abomination/slam.png"
+				},
+				"Transform": {
+					"image":"/images/abilities/abomination/transform.png"
+				}
+			}
 		},
 		"Houndmaster": 
 		{
 			"image": "/images/heroes/houndmaster_roster.png",
-			"abbr": "HOUND"
+			"abbr": "HOUND",
+			"abilities": {
+				"Absolution" : 
+				{ 
+					"image": "/images/abilities/abomination/absolution.png",
+				},
+				"Beast's Bile": {
+					"image": "/images/abilities/abomination/beast's_bile.png"
+				},
+				"Manacles": {
+					"image": "/images/abilities/abomination/manacles.png"
+				},
+				"Rage": {
+					"image":"/images/abilities/abomination/rage.png"
+				},
+				"Rake": {
+					"image": "/images/abilities/abomination/rake.png"
+				},
+				"Slam": {
+					"image": "/images/abilities/abomination/slam.png"
+				},
+				"Transform": {
+					"image":"/images/abilities/abomination/transform.png"
+				}
+			}
 		},
 		"Jester": 
 		{
 			"image": "/images/heroes/jester_roster.png",
-			"abbr": "JEST"
+			"abbr": "JEST",
+			"abilities": {
+				"Absolution" : 
+				{ 
+					"image": "/images/abilities/abomination/absolution.png",
+				},
+				"Beast's Bile": {
+					"image": "/images/abilities/abomination/beast's_bile.png"
+				},
+				"Manacles": {
+					"image": "/images/abilities/abomination/manacles.png"
+				},
+				"Rage": {
+					"image":"/images/abilities/abomination/rage.png"
+				},
+				"Rake": {
+					"image": "/images/abilities/abomination/rake.png"
+				},
+				"Slam": {
+					"image": "/images/abilities/abomination/slam.png"
+				},
+				"Transform": {
+					"image":"/images/abilities/abomination/transform.png"
+				}
+			}
 		},
 		"Leper": 
 		{
 			"image": "/images/heroes/leper_roster.png",
-			"abbr": "LEP"
+			"abbr": "LEP",
+			"abilities": {
+				"Absolution" : 
+				{ 
+					"image": "/images/abilities/abomination/absolution.png",
+				},
+				"Beast's Bile": {
+					"image": "/images/abilities/abomination/beast's_bile.png"
+				},
+				"Manacles": {
+					"image": "/images/abilities/abomination/manacles.png"
+				},
+				"Rage": {
+					"image":"/images/abilities/abomination/rage.png"
+				},
+				"Rake": {
+					"image": "/images/abilities/abomination/rake.png"
+				},
+				"Slam": {
+					"image": "/images/abilities/abomination/slam.png"
+				},
+				"Transform": {
+					"image":"/images/abilities/abomination/transform.png"
+				}
+			}
 		},
 		"Man at Arms": 
 		{
 			"image": "/images/heroes/man_at_arms_roster.png",
-			"abbr": "GRANDPA"
+			"abbr": "GRANDPA",
+			"abilities": {
+				"Absolution" : 
+				{ 
+					"image": "/images/abilities/abomination/absolution.png",
+				},
+				"Beast's Bile": {
+					"image": "/images/abilities/abomination/beast's_bile.png"
+				},
+				"Manacles": {
+					"image": "/images/abilities/abomination/manacles.png"
+				},
+				"Rage": {
+					"image":"/images/abilities/abomination/rage.png"
+				},
+				"Rake": {
+					"image": "/images/abilities/abomination/rake.png"
+				},
+				"Slam": {
+					"image": "/images/abilities/abomination/slam.png"
+				},
+				"Transform": {
+					"image":"/images/abilities/abomination/transform.png"
+				}
+			}
 		}, 
 		"Occultist": 
 		{
 			"image": "/images/heroes/occultist_roster.png",
-			"abbr": "OCC"
+			"abbr": "OCC",
+			"abilities": {
+				"Absolution" : 
+				{ 
+					"image": "/images/abilities/abomination/absolution.png",
+				},
+				"Beast's Bile": {
+					"image": "/images/abilities/abomination/beast's_bile.png"
+				},
+				"Manacles": {
+					"image": "/images/abilities/abomination/manacles.png"
+				},
+				"Rage": {
+					"image":"/images/abilities/abomination/rage.png"
+				},
+				"Rake": {
+					"image": "/images/abilities/abomination/rake.png"
+				},
+				"Slam": {
+					"image": "/images/abilities/abomination/slam.png"
+				},
+				"Transform": {
+					"image":"/images/abilities/abomination/transform.png"
+				}
+			}
 		}, 
 		"Plague Doctor": 
 		{
 			"image": "/images/heroes/plague_doctor_roster.png",
-			"abbr": "PD"
+			"abbr": "PD",
+			"abilities": {
+				"Absolution" : 
+				{ 
+					"image": "/images/abilities/abomination/absolution.png",
+				},
+				"Beast's Bile": {
+					"image": "/images/abilities/abomination/beast's_bile.png"
+				},
+				"Manacles": {
+					"image": "/images/abilities/abomination/manacles.png"
+				},
+				"Rage": {
+					"image":"/images/abilities/abomination/rage.png"
+				},
+				"Rake": {
+					"image": "/images/abilities/abomination/rake.png"
+				},
+				"Slam": {
+					"image": "/images/abilities/abomination/slam.png"
+				},
+				"Transform": {
+					"image":"/images/abilities/abomination/transform.png"
+				}
+			}
 		}, 
 		"Vestal": 
 		{
 			"image": "/images/heroes/vestal_roster.png",
-			"abbr": "VEST"
+			"abbr": "VEST",
+			"abilities": {
+				"Absolution" : 
+				{ 
+					"image": "/images/abilities/abomination/absolution.png",
+				},
+				"Beast's Bile": {
+					"image": "/images/abilities/abomination/beast's_bile.png"
+				},
+				"Manacles": {
+					"image": "/images/abilities/abomination/manacles.png"
+				},
+				"Rage": {
+					"image":"/images/abilities/abomination/rage.png"
+				},
+				"Rake": {
+					"image": "/images/abilities/abomination/rake.png"
+				},
+				"Slam": {
+					"image": "/images/abilities/abomination/slam.png"
+				},
+				"Transform": {
+					"image":"/images/abilities/abomination/transform.png"
+				}
+			}
 		}
 	}	
 }

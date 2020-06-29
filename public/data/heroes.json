@@ -122,27 +122,27 @@
 			"image": "/images/heroes/crusader_roster.png",
 			"abbr": "DEUS",
 			"abilities": {
-				"Absolution" : 
+				"Battle Heal" : 
 				{ 
-					"image": "/images/abilities/abomination/absolution.png"
+					"image": "/images/abilities/crusader/battle_heal.png"
 				},
-				"Beast's Bile": {
-					"image": "/images/abilities/abomination/beast's_bile.png"
+				"Bulwark of Faith": {
+					"image": "/images/abilities/crusader/bulwark_of_faith.png"
 				},
-				"Manacles": {
-					"image": "/images/abilities/abomination/manacles.png"
+				"Holy Lance": {
+					"image": "/images/abilities/crusader/holy_lance.png"
 				},
-				"Rage": {
-					"image":"/images/abilities/abomination/rage.png"
+				"Inspiring Cry": {
+					"image":"/images/abilities/crusader/inspiring_cry.png"
 				},
-				"Rake": {
-					"image": "/images/abilities/abomination/rake.png"
+				"Smite": {
+					"image": "/images/abilities/crusader/smite.png"
 				},
-				"Slam": {
-					"image": "/images/abilities/abomination/slam.png"
+				"Stunning Blow": {
+					"image": "/images/abilities/crusader/stunning_blow.png"
 				},
-				"Transform": {
-					"image":"/images/abilities/abomination/transform.png"
+				"Zealous Accusation": {
+					"image":"/images/abilities/crusader/zealous_accusation.png"
 				}
 			}
 		},
@@ -209,27 +209,27 @@
 			"image": "/images/heroes/highwayman_roster.png",
 			"abbr": "HWM",
 			"abilities": {
-				"Absolution" : 
+				"Duelist Advance" : 
 				{ 
-					"image": "/images/abilities/abomination/absolution.png"
+					"image": "/images/abilities/highwayman/duelist_advance.png"
 				},
-				"Beast's Bile": {
-					"image": "/images/abilities/abomination/beast's_bile.png"
+				"Grapeshot Blast": {
+					"image": "/images/abilities/highwayman/grapeshot_blast.png"
 				},
-				"Manacles": {
-					"image": "/images/abilities/abomination/manacles.png"
+				"Open Vein": {
+					"image": "/images/abilities/highwayman/open_vein.png"
 				},
-				"Rage": {
-					"image":"/images/abilities/abomination/rage.png"
+				"Pistol Shot": {
+					"image":"/images/abilities/highwayman/pistol_shot.png"
 				},
-				"Rake": {
-					"image": "/images/abilities/abomination/rake.png"
+				"Point Blank Shot": {
+					"image": "/images/abilities/highwayman/point_blank_shot.png"
 				},
-				"Slam": {
-					"image": "/images/abilities/abomination/slam.png"
+				"Tracking Shot": {
+					"image": "/images/abilities/highwayman/tracking_shot.png"
 				},
-				"Transform": {
-					"image":"/images/abilities/abomination/transform.png"
+				"Wicked Slice": {
+					"image":"/images/abilities/highwayman/wicked_slice.png"
 				}
 			}
 		},
@@ -412,27 +412,27 @@
 			"image": "/images/heroes/vestal_roster.png",
 			"abbr": "VEST",
 			"abilities": {
-				"Absolution" : 
+				"Dazzling Light" : 
 				{ 
-					"image": "/images/abilities/abomination/absolution.png"
+					"image": "/images/abilities/vestal/dazzling_light.png"
 				},
-				"Beast's Bile": {
-					"image": "/images/abilities/abomination/beast's_bile.png"
+				"Divine Comfort": {
+					"image": "/images/abilities/vestal/divine_comfort.png"
 				},
-				"Manacles": {
-					"image": "/images/abilities/abomination/manacles.png"
+				"Divine Grace": {
+					"image": "/images/abilities/vestal/divine_grace.png"
 				},
-				"Rage": {
-					"image":"/images/abilities/abomination/rage.png"
+				"Hand of Light": {
+					"image":"/images/abilities/vestal/hand_of_light.png"
 				},
-				"Rake": {
-					"image": "/images/abilities/abomination/rake.png"
+				"Illumination": {
+					"image": "/images/abilities/vestal/illumination.png"
 				},
-				"Slam": {
-					"image": "/images/abilities/abomination/slam.png"
+				"Judgement": {
+					"image": "/images/abilities/vestal/judgement.png"
 				},
-				"Transform": {
-					"image":"/images/abilities/abomination/transform.png"
+				"Mace Bash": {
+					"image":"/images/abilities/vestal/mace_bash.png"
 				}
 			}
 		}

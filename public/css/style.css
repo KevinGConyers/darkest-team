@@ -71,24 +71,52 @@ fieldset {
 p {
   color: #E64A19;
 }
-div.gallery {
+div.hero_gallery {
   border: 5px solid #ccc;
   margin: 5px;
   float: left;
   width: 128px;
   height: 128px;
 }
-div.gallery img {
+div.hero_gallery img {
 	width: 100%;
 	height: auto;
 }
+
+div.title {
+  border: 5px solid #555;
+  text-align: center;
+  width: 600px;
+}
+
+div.ability_gallery {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  margin: 10px;
+  float: left;
+  width: 128px;
+  height: 128px;
+}
+
+div.ability_gallery_item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+}
+div.ability_gallery_item img {
+  width: 99%;
+  height: 100%;
+  
+}
+
 div.portrait {
 	width: 128px;
 	height: auto;	
 	float: left;
 }
 .hero_form {
-	border: 5px solid #ccc;
+  border: 5px solid #ccc;
 	width: 600px;
 	height: auto;
 	float: left;
@@ -96,7 +124,7 @@ div.portrait {
 
 select.hero_select {
   border: 5px solid #ccc;
-  margin: 5px;
+  margin: 10px;
   float: left;
   width: 128px;
   height: auto;
@@ -110,10 +138,40 @@ select.hero_select {
 }
 
 div.ability_pane {
-  border: 5px solid #ccc;
+ border: 5px solid #E64A19; 
   margin: 5px;
   float: left;
   width: 128px;
+  height: auto;
+  background-color: transparent;
+  min-width: 50px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+div.hero_row {
+  border: 5px solid #000;
+  margin: 10px;
+  float: left;
+  width: 600px;
+  height: auto;
+  background-color: transparent;
+  min-width: 50px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+div.ability_row {
+  border: 5px solid #E64A19;
+  margin: 10px;
+  float: left;
+  width: 600px;
   height: auto;
   background-color: transparent;
   min-width: 50px;

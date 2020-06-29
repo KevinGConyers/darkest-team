@@ -12,7 +12,10 @@ app.get('/', function (req, res) {
 })
 
 app.post('/', function (req, res) {
-	console.log("button pressed");
+  console.log("button pressed");
+  console.log(req.body);
+  console.log(req.body['hero-1']);
+  res.render('image_preview', req.body)
 })
 
 app.listen(3000, function () {

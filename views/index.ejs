@@ -1,45 +1,55 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-	<meta charset="utf-8">
-	<title>Team Builder</title>
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-</head>
+	<head>
+		<meta charset="utf-8">
+		<title>Team Builder</title>
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165680210-2"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
 
-<body>
-	<div class="hero_form">
-		<div class="hero_gallery">
-			<img id="Hero4" src="/images/heroes/vestal_roster.png" alt="Position Four" width="96" height="96">
-		</div>
-		<div class="hero_gallery">
-			<img id="Hero3" src="/images/heroes/plague_doctor_roster.png" alt="Position Three" width="96" height="96">
-		</div>
-		<div class="hero_gallery">
-			<img id="Hero2" src="/images/heroes/highwayman_roster.png" alt="Position Two" width="96" height="96">
-		</div>
-		<div class="hero_gallery">
-			<img id="Hero1" src="/images/heroes/crusader_roster.png" alt="Position One" width="96" height="96">
-		</div>
-		<br></br>
-	</div>
-	<form class="hero_form" action="/" method="post">
-		<select class="hero_select" name="hero4" id="hero4_select"></select>
-		<select class="hero_select" name="hero3" id="hero3_select"></select>
-		<select class="hero_select" name="hero2" id="hero2_select"></select>
-		<select class="hero_select" name="hero1" id="hero1_select"></select>
-		<br></br>
-		<div class="ability_pane" id="abil4"></div>
-		<div class="ability_pane" id="abil3"></div>
-		<div class="ability_pane" id="abil2"></div>
-		<div class="ability_pane" id="abil1"></div>
+gtag('config', 'UA-165680210-2');
+		</script>
 
-		<br></br>
-		<input type="submit" class="ghost-button" value="Generate Preview">
-	</form>
-</body>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="/scripts/form.js"></script>
+	</head>
+
+	<body>
+		<div class="hero_form">
+			<div class="hero_gallery">
+				<img id="Hero4" src="/images/heroes/vestal_roster.png" alt="Position Four" width="96" height="96">
+			</div>
+			<div class="hero_gallery">
+				<img id="Hero3" src="/images/heroes/plague_doctor_roster.png" alt="Position Three" width="96" height="96">
+			</div>
+			<div class="hero_gallery">
+				<img id="Hero2" src="/images/heroes/highwayman_roster.png" alt="Position Two" width="96" height="96">
+			</div>
+			<div class="hero_gallery">
+				<img id="Hero1" src="/images/heroes/crusader_roster.png" alt="Position One" width="96" height="96">
+			</div>
+			<br></br>
+		</div>
+		<form class="hero_form" action="/" method="post">
+			<select class="hero_select" name="hero4" id="hero4_select"></select>
+			<select class="hero_select" name="hero3" id="hero3_select"></select>
+			<select class="hero_select" name="hero2" id="hero2_select"></select>
+			<select class="hero_select" name="hero1" id="hero1_select"></select>
+			<br></br>
+			<div class="ability_pane" id="abil4"></div>
+			<div class="ability_pane" id="abil3"></div>
+			<div class="ability_pane" id="abil2"></div>
+			<div class="ability_pane" id="abil1"></div>
+
+			<br></br>
+			<input type="submit" class="ghost-button" value="Generate Preview">
+		</form>
+	</body>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="/scripts/form.js"></script>
 
 </html>

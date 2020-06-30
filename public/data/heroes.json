@@ -35,27 +35,27 @@
 			"image": "/images/heroes/antiquarian_roster.png",
 			"abbr": "ANT",
 			"abilities": {
-				"Absolution" : 
+				"Nervous Stab" : 
 				{ 
-					"image": "/images/abilities/abomination/absolution.png"
+					"image": "/images/abilities/antiquarian/nervous_stab.png"
 				},
-				"Beast's Bile": {
-					"image": "/images/abilities/abomination/beast's_bile.png"
+				"Fortifying Vapours": {
+					"image": "/images/abilities/antiquarian.ability.two.png"
 				},
-				"Manacles": {
-					"image": "/images/abilities/abomination/manacles.png"
+				"Get Down!": {
+					"image": "/images/abilities/antiquarian/antiquarian.ability.three.png"
 				},
-				"Rage": {
-					"image":"/images/abilities/abomination/rage.png"
+				"Flashpowder": {
+					"image":"/images/abilities/antiquarian/flashpowder.png"
 				},
-				"Rake": {
-					"image": "/images/abilities/abomination/rake.png"
+				"Festering Vapours": {
+					"image": "/images/abilities/antiquarian/festering_vapours.png"
 				},
-				"Slam": {
-					"image": "/images/abilities/abomination/slam.png"
+				"Invigorating Vapours": {
+					"image": "/images/abilities/antiquarian/antiquarian.ability.six.png"
 				},
-				"Transform": {
-					"image":"/images/abilities/abomination/transform.png"
+				"Protect Me": {
+					"image":"/images/abilities/antiquarian/antiquarian.ability.seven.png"
 				}
 			}
 		},
@@ -64,27 +64,27 @@
 			"image": "/images/heroes/arbalest_roster.png",
 			"abbr": "ARB",
 			"abilities": {
-				"Absolution" : 
+				"Sniper Shot" : 
 				{ 
-					"image": "/images/abilities/abomination/absolution.png"
+					"image": "/images/abilities/arbalest/arbalest.ability.one.png"
 				},
-				"Beast's Bile": {
-					"image": "/images/abilities/abomination/beast's_bile.png"
+				"Sniper's Mark": {
+					"image": "/images/abilities/arbalest/arbalest.ability.three.png"
 				},
-				"Manacles": {
-					"image": "/images/abilities/abomination/manacles.png"
+				"Bola": {
+					"image": "/images/abilities/arbalest/arbalest.ability.four.png"
 				},
-				"Rage": {
-					"image":"/images/abilities/abomination/rage.png"
+				"Supressing Fire": {
+					"image": "/images/abilities/arbalest/arbalest.ability.two.png"
 				},
-				"Rake": {
-					"image": "/images/abilities/abomination/rake.png"
+				"Blindfire": {
+					"image": "/images/abilities/arbalest/arbalest.ability.five.png"
 				},
-				"Slam": {
-					"image": "/images/abilities/abomination/slam.png"
+				"Battlefield Bandage": {
+					"image": "/images/abilities/arbalest/arbalest.ability.six.png"
 				},
-				"Transform": {
-					"image":"/images/abilities/abomination/transform.png"
+				"Rallying Flare": {
+					"image": "/images/abilities/arbalest/arbalest.ability.seven.png"
 				}
 			}
 		},

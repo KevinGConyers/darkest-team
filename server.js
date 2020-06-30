@@ -232,7 +232,7 @@ function getParamsObject(body) {
 function loadJSON() {
   // include file system module
   var fs = require('fs');
-  path = __dirname + "\\public\\data\\heroes.json";
+  path = __dirname + "/public/data/heroes.json";
   // read file sample.json file
   var text = fs.readFileSync(path) 
   var jsonParsed = JSON.parse(text);

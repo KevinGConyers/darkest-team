@@ -83,12 +83,6 @@ div.hero_gallery img {
 	height: auto;
 }
 
-div.title {
-  border: 5px solid #555;
-  text-align: center;
-  width: 600px;
-}
-
 div.ability_gallery {
   display: inline-grid;
   grid-template-columns: auto auto;
@@ -152,6 +146,14 @@ div.ability_pane {
   transition: all 0.1s ease-in-out;
 }
 
+div.ability_pane_c {
+  border: 5px solid #2196F3; 
+   margin: 5px;
+   float: left;
+   width: 128px;
+   height: auto;
+ }
+
 div.hero_row {
   border: 5px solid #000;
   margin: 10px;
@@ -180,4 +182,11 @@ div.ability_row {
   -ms-transition: all 0.1s ease-in-out;
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
+}
+
+div.title {
+  border: 5px solid #555;
+  margin: 10px;
+  text-align: center;
+  width: auto;
 }

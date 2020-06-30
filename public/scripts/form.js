@@ -61,11 +61,24 @@ $.getJSON(herodata, function (data) {
 		 }
 
 	})
+	generateAbilitySelection("hero1_select", "abil1");
+	generateAbilitySelection("hero2_select", "abil2");
+	generateAbilitySelection("hero3_select", "abil3");
+	generateAbilitySelection("hero4_select", "abil4");
+	document.getElementById('abil1').style.display='block';
+	document.getElementById('abil2').style.display='block';
+	document.getElementById('abil3').style.display='block';
+	document.getElementById('abil4').style.display='block';
 });
 document.getElementById('abil1').style.display='none';
 document.getElementById('abil2').style.display='none';
 document.getElementById('abil3').style.display='none';
 document.getElementById('abil4').style.display='none';
+
+generateAbilitySelection("hero1_select", "abil1");
+generateAbilitySelection("hero2_select", "abil2");
+generateAbilitySelection("hero3_select", "abil3");
+generateAbilitySelection("hero4_select", "abil4");
 
 function updateImage(select_id, image_id) {
 	hero_name = document.getElementById(select_id).value;

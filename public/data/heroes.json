@@ -383,27 +383,27 @@
 			"image": "/images/heroes/plague_doctor_roster.png",
 			"abbr": "PD",
 			"abilities": {
-				"Absolution" : 
+				"Battlefield Medicine" : 
 				{ 
-					"image": "/images/abilities/abomination/absolution.png"
+					"image": "/images/abilities/plague_doctor/battlefield_medicine.png"
 				},
-				"Beast's Bile": {
-					"image": "/images/abilities/abomination/beast's_bile.png"
+				"Blinding Gas": {
+					"image": "/images/abilities/plague_doctor/blinding_gas.png"
 				},
-				"Manacles": {
-					"image": "/images/abilities/abomination/manacles.png"
+				"Noxious Blast": {
+					"image": "/images/abilities/plague_doctor/noxious_blast.png"
 				},
-				"Rage": {
-					"image":"/images/abilities/abomination/rage.png"
+				"Plague Grenade": {
+					"image":"/images/abilities/plague_doctor/plague_grenade.png"
 				},
-				"Rake": {
-					"image": "/images/abilities/abomination/rake.png"
+				"Incision": {
+					"image": "/images/abilities/plague_doctor/incision.png"
 				},
-				"Slam": {
-					"image": "/images/abilities/abomination/slam.png"
+				"Disorienting Blast": {
+					"image": "/images/abilities/plague_doctor/disorienting_blast.png"
 				},
-				"Transform": {
-					"image":"/images/abilities/abomination/transform.png"
+				"Emboldening Vapours": {
+					"image":"/images/abilities/plague_doctor/emboldening_vapours.png"
 				}
 			}
 		}, 

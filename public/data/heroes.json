@@ -93,27 +93,27 @@
 			"image": "/images/heroes/bounty_hunter_roster.png",
 			"abbr": "BH",
 			"abilities": {
-				"Absolution" : 
+				"Collect Bounty" : 
 				{ 
-					"image": "/images/abilities/abomination/absolution.png"
+					"image": "/images/abilities/bounty_hunter/bounty_hunter.ability.one.png"
 				},
-				"Beast's Bile": {
-					"image": "/images/abilities/abomination/beast's_bile.png"
+				"Mark for Death": {
+					"image": "/images/abilities/bounty_hunter/bounty_hunter.ability.two.png"
 				},
-				"Manacles": {
-					"image": "/images/abilities/abomination/manacles.png"
+				"Come Hither": {
+					"image": "/images/abilities/bounty_hunter/bounty_hunter.ability.three.png"
 				},
-				"Rage": {
-					"image":"/images/abilities/abomination/rage.png"
+				"Uppercut": {
+					"image":"/images/abilities/bounty_hunter/bounty_hunter.ability.four.png"
 				},
-				"Rake": {
-					"image": "/images/abilities/abomination/rake.png"
+				"Flashbang": {
+					"image": "/images/abilities/bounty_hunter/bounty_hunter.ability.five.png"
 				},
-				"Slam": {
-					"image": "/images/abilities/abomination/slam.png"
+				"Finish Him": {
+					"image": "/images/abilities/bounty_hunter/bounty_hunter.ability.six.png"
 				},
-				"Transform": {
-					"image":"/images/abilities/abomination/transform.png"
+				"Caltrops": {
+					"image":"/images/abilities/bounty_hunter/bounty_hunter.ability.seven.png"
 				}
 			}
 		},
@@ -151,27 +151,27 @@
 			"image": "/images/heroes/grave_robber_roster.png",
 			"abbr" : "WIFE",
 			"abilities": {
-				"Absolution" : 
+				"Pick to the Face" : 
 				{ 
-					"image": "/images/abilities/abomination/absolution.png"
+					"image": "/images/abilities/grave_robber/grave_robber.ability.one.png"
 				},
-				"Beast's Bile": {
-					"image": "/images/abilities/abomination/beast's_bile.png"
+				"Lunge": {
+					"image": "/images/abilities/grave_robber/grave_robber.ability.two.png"
 				},
-				"Manacles": {
-					"image": "/images/abilities/abomination/manacles.png"
+				"Flashing Daggers": {
+					"image": "/images/abilities/grave_robber/grave_robber.ability.three.png"
 				},
-				"Rage": {
-					"image":"/images/abilities/abomination/rage.png"
+				"Shadow Fade": {
+					"image":"/images/abilities/grave_robber/grave_robber.ability.four.png"
 				},
-				"Rake": {
-					"image": "/images/abilities/abomination/rake.png"
+				"Thrown Dagger": {
+					"image": "/images/abilities/grave_robber/grave_robber.ability.five.png"
 				},
-				"Slam": {
-					"image": "/images/abilities/abomination/slam.png"
+				"Panic Darts": {
+					"image": "/images/abilities/grave_robber/grave_robber.ability.six.png"
 				},
-				"Transform": {
-					"image":"/images/abilities/abomination/transform.png"
+				"Toxin Trickery": {
+					"image":"/images/abilities/grave_robber/grave_robber.ability.seven.png"
 				}
 			}
 		},
@@ -180,27 +180,27 @@
 			"image": "/images/heroes/hellion_roster.png",
 			"abbr": "HELL",
 			"abilities": {
-				"Absolution" : 
+				"Wicked Hack" : 
 				{ 
-					"image": "/images/abilities/abomination/absolution.png"
+					"image": "/images/abilities/hellion/hellion.ability.one.png"
 				},
-				"Beast's Bile": {
-					"image": "/images/abilities/abomination/beast's_bile.png"
+				"Iron Swan": {
+					"image": "/images/abilities/hellion/hellion.ability.two.png"
 				},
-				"Manacles": {
-					"image": "/images/abilities/abomination/manacles.png"
+				"Barbaric YAWP!": {
+					"image": "/images/abilities/hellion/hellion.ability.three.png"
 				},
-				"Rage": {
-					"image":"/images/abilities/abomination/rage.png"
+				"If it Bleeds": {
+					"image":"/images/abilities/hellion/hellion.ability.four.png"
 				},
-				"Rake": {
-					"image": "/images/abilities/abomination/rake.png"
+				"Break": {
+					"image": "/images/abilities/hellion/hellion.ability.five.png"
 				},
 				"Slam": {
-					"image": "/images/abilities/abomination/slam.png"
+					"image": "/images/abilities/hellion/hellion.ability.six.png"
 				},
 				"Transform": {
-					"image":"/images/abilities/abomination/transform.png"
+					"image":"/images/abilities/hellion/hellion.ability.seven.png"
 				}
 			}
 		},
@@ -238,27 +238,27 @@
 			"image": "/images/heroes/houndmaster_roster.png",
 			"abbr": "HOUND",
 			"abilities": {
-				"Absolution" : 
+				"Hound's Rush" : 
 				{ 
-					"image": "/images/abilities/abomination/absolution.png"
+					"image": "/images/abilities/houndmaster/houndmaster.ability.one.png"
 				},
-				"Beast's Bile": {
-					"image": "/images/abilities/abomination/beast's_bile.png"
+				"Hound's Rush": {
+					"image": "/images/abilities/houndmaster/houndmaster.ability.two.png"
 				},
-				"Manacles": {
-					"image": "/images/abilities/abomination/manacles.png"
+				"Target Whistle": {
+					"image": "/images/abilities/houndmaster/houndmaster.ability.three.png"
 				},
-				"Rage": {
-					"image":"/images/abilities/abomination/rage.png"
+				"Cry Havoc": {
+					"image":"/images/abilities/houndmaster/houndmaster.ability.four.png"
 				},
-				"Rake": {
-					"image": "/images/abilities/abomination/rake.png"
+				"Guard Dog": {
+					"image": "/images/abilities/houndmaster/houndmaster.ability.five.png"
 				},
-				"Slam": {
-					"image": "/images/abilities/abomination/slam.png"
+				"Lick Wounds": {
+					"image": "/images/abilities/houndmaster/houndmaster.ability.six.png"
 				},
-				"Transform": {
-					"image":"/images/abilities/abomination/transform.png"
+				"Blackjack": {
+					"image":"/images/abilities/houndmaster/houndmaster.ability.seven.png"
 				}
 			}
 		},
@@ -267,27 +267,28 @@
 			"image": "/images/heroes/jester_roster.png",
 			"abbr": "JEST",
 			"abilities": {
-				"Absolution" : 
+
+				"Dirk Stab" : 
 				{ 
-					"image": "/images/abilities/abomination/absolution.png"
+					"image": "/images/abilities/jester/jester.ability.one.png"
 				},
-				"Beast's Bile": {
-					"image": "/images/abilities/abomination/beast's_bile.png"
+				"Harvest": {
+					"image": "/images/abilities/jester/jester.ability.two.png"
 				},
-				"Manacles": {
-					"image": "/images/abilities/abomination/manacles.png"
+				"Finale": {
+					"image": "/images/abilities/jester/jester.ability.three.png"
 				},
-				"Rage": {
-					"image":"/images/abilities/abomination/rage.png"
+				"Solo": {
+					"image":"/images/abilities/jester/jester.ability.four.png"
 				},
-				"Rake": {
-					"image": "/images/abilities/abomination/rake.png"
+				"Slice Off": {
+					"image": "/images/abilities/jester/jester.ability.five.png"
 				},
-				"Slam": {
-					"image": "/images/abilities/abomination/slam.png"
+				"Battle Ballad": {
+					"image": "/images/abilities/jester/jester.ability.six.png"
 				},
-				"Transform": {
-					"image":"/images/abilities/abomination/transform.png"
+				"Inspiring Tune": {
+					"image":"/images/abilities/jester/jester.ability.seven.png"
 				}
 			}
 		},
@@ -296,27 +297,27 @@
 			"image": "/images/heroes/leper_roster.png",
 			"abbr": "LEP",
 			"abilities": {
-				"Absolution" : 
+				"Chop" : 
 				{ 
-					"image": "/images/abilities/abomination/absolution.png"
+					"image": "/images/abilities/leper/leper.ability.one.png"
 				},
-				"Beast's Bile": {
-					"image": "/images/abilities/abomination/beast's_bile.png"
+				"Hew": {
+					"image": "/images/abilities/leper/leper.ability.two.png"
 				},
-				"Manacles": {
-					"image": "/images/abilities/abomination/manacles.png"
+				"Purge": {
+					"image": "/images/abilities/leper/leper.ability.three.png"
 				},
-				"Rage": {
-					"image":"/images/abilities/abomination/rage.png"
+				"Revenge": {
+					"image":"/images/abilities/leper/leper.ability.four.png"
 				},
-				"Rake": {
-					"image": "/images/abilities/abomination/rake.png"
+				"Withstand": {
+					"image": "/images/abilities/leper/leper.ability.five.png"
 				},
-				"Slam": {
-					"image": "/images/abilities/abomination/slam.png"
+				"Solmenity": {
+					"image": "/images/abilities/leper/leper.ability.six.png"
 				},
-				"Transform": {
-					"image":"/images/abilities/abomination/transform.png"
+				"Intimidate": {
+					"image":"/images/abilities/leper/leper.ability.seven.png"
 				}
 			}
 		},
@@ -325,27 +326,27 @@
 			"image": "/images/heroes/man_at_arms_roster.png",
 			"abbr": "GRANDPA",
 			"abilities": {
-				"Absolution" : 
+				"Crush" : 
 				{ 
-					"image": "/images/abilities/abomination/absolution.png"
+					"image": "/images/abilities/man_at_arms/man_at_arms.ability.one.png"
 				},
-				"Beast's Bile": {
-					"image": "/images/abilities/abomination/beast's_bile.png"
+				"Rampart": {
+					"image": "/images/abilities/man_at_arms/man_at_arms.ability.two.png"
 				},
-				"Manacles": {
-					"image": "/images/abilities/abomination/manacles.png"
+				"Bellow": {
+					"image": "/images/abilities/man_at_arms/man_at_arms.ability.three.png"
 				},
-				"Rage": {
-					"image":"/images/abilities/abomination/rage.png"
+				"Defender": {
+					"image":"/images/abilities/man_at_arms/man_at_arms.ability.four.png"
 				},
-				"Rake": {
-					"image": "/images/abilities/abomination/rake.png"
+				"Retribution": {
+					"image": "/images/abilities/man_at_arms/man_at_arms.ability.five.png"
 				},
-				"Slam": {
-					"image": "/images/abilities/abomination/slam.png"
+				"Command": {
+					"image": "/images/abilities/man_at_arms/man_at_arms.ability.six.png"
 				},
-				"Transform": {
-					"image":"/images/abilities/abomination/transform.png"
+				"Bolster": {
+					"image":"/images/abilities/man_at_arms/man_at_arms.ability.seven.png"
 				}
 			}
 		}, 
@@ -354,27 +355,27 @@
 			"image": "/images/heroes/occultist_roster.png",
 			"abbr": "OCC",
 			"abilities": {
-				"Absolution" : 
+				"Sacrificial Stab" : 
 				{ 
-					"image": "/images/abilities/abomination/absolution.png"
+					"image": "/images/abilities/occultist/occultist.ability.one.png"
 				},
-				"Beast's Bile": {
-					"image": "/images/abilities/abomination/beast's_bile.png"
+				"Abyssal Artillery": {
+					"image": "/images/abilities/occultist/occultist.ability.two.png"
 				},
-				"Manacles": {
-					"image": "/images/abilities/abomination/manacles.png"
+				"Weakening Curse": {
+					"image": "/images/abilities/occultist/occultist.ability.three.png"
 				},
-				"Rage": {
-					"image":"/images/abilities/abomination/rage.png"
+				"Wyrd Reconstruction": {
+					"image":"/images/abilities/occultist/occultist.ability.four.png"
 				},
-				"Rake": {
-					"image": "/images/abilities/abomination/rake.png"
+				"Vulnerability Hex": {
+					"image": "/images/abilities/occultist/occultist.ability.five.png"
 				},
-				"Slam": {
-					"image": "/images/abilities/abomination/slam.png"
+				"Hands from the Abyss": {
+					"image": "/images/abilities/occultist/occultist.ability.six.png"
 				},
-				"Transform": {
-					"image":"/images/abilities/abomination/transform.png"
+				"Daemon's Pull": {
+					"image":"/images/abilities/occultist/occultist.ability.seven.png"
 				}
 			}
 		}, 

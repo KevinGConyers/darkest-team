@@ -18,8 +18,8 @@ console.log("Analytics script fired");
 		</script>
 
 	</head>
-
 	<body>
+	<%- include('static_components/nav.html') %>
 		<div class="hero_form">
 			<div class="hero_gallery">
 				<img id="Hero4" src="/images/heroes/vestal_roster.png" alt="Position Four" width="96" height="96">
@@ -49,6 +49,11 @@ console.log("Analytics script fired");
 			<br></br>
 			<input type="submit" class="ghost-button" value="Generate Preview">
 		</form>
+	<ul class="footer">
+		<li class="footer_element"><%- include('static_components/copyright.html'); %></li>
+		<li class="footer_element"><%- include('static_components/contact.html'); %></li>
+	</ul>
+
 	</body>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="/scripts/form.js"></script>

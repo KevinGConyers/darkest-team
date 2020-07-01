@@ -39,6 +39,19 @@ app.get('/', function (req, res) {
 	res.render('index')
 })
 
+app.get('/about', function(req, res) {
+	res.render('about');
+})
+
+app.get('/news', function(req, res) {
+	res.render('news');
+})
+
+app.get('/support', function(req, res) {
+	res.render('support');
+})
+
+
 app.post('/', function (req, res) {
 	console.log("button pressed");
 	params = getParamsObject(req.body);

@@ -131,6 +131,44 @@ div.ability_gallery_item img {
   
 }
 
+div.trinket_row {
+  border: 5px solid #585;
+  margin: 10px;
+  float: left;
+  width: 600px;
+  height: auto;
+  background-color: transparent;
+  min-width: 50px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+
+div.trinket_gallery {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  margin: 10px;
+  float: left;
+  width: 128px;
+  height: 128px;
+}
+
+div.trinket_gallery_item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+}
+div.trinket_gallery_item img {
+  width: 99%;
+  height: 100%;
+  
+}
+
+
 div.portrait {
 	width: 128px;
 	height: auto;	

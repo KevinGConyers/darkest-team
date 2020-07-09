@@ -242,7 +242,7 @@
 				{ 
 					"image": "/images/abilities/houndmaster/houndmaster.ability.one.png"
 				},
-				"Hound's Rush": {
+				"Hound's Harry": {
 					"image": "/images/abilities/houndmaster/houndmaster.ability.two.png"
 				},
 				"Target Whistle": {
@@ -434,6 +434,93 @@
 				},
 				"Mace Bash": {
 					"image":"/images/abilities/vestal/mace_bash.png"
+				}
+			}
+		},
+		"Flagellant": 
+		{
+			"image": "/images/heroes/flagellant_roster.png",
+			"abbr": "FLAG",
+			"abilities": {
+				"Punish" : 
+				{ 
+					"image": "/images/abilities/flagellant/flagellant.ability.one.png"
+				},
+				"Rain of Sorrows": {
+					"image": "/images/abilities/flagellant/flagellant.ability.two.png"
+				},
+				"Exsanguinate": {
+					"image": "/images/abilities/flagellant/flagellant.ability.three.png"
+				},
+				"Reclaim": {
+					"image":"/images/abilities/flagellant/flagellant.ability.four.png"
+				},
+				"Redeem": {
+					"image": "/images/abilities/flagellant/flagellant.ability.five.png"
+				},
+				"Endure": {
+					"image": "/images/abilities/flagellant/flagellant.ability.six.png"
+				},
+				"Suffer": {
+					"image":"/images/abilities/flagellant/flagellant.ability.seven.png"
+				}
+			}
+		},
+		"Shieldbreaker": 
+		{
+			"image": "/images/heroes/shieldbreaker_roster.png",
+			"abbr": "SHLD",
+			"abilities": {
+				"Pierce" : 
+				{ 
+					"image": "/images/abilities/Shieldbreaker/Shieldbreaker.ability.one.png"
+				},
+				"Puncture": {
+					"image": "/images/abilities/Shieldbreaker/Shieldbreaker.ability.two.png"
+				},
+				"Adder's Kiss": {
+					"image": "/images/abilities/Shieldbreaker/Shieldbreaker.ability.three.png"
+				},
+				"Impale": {
+					"image":"/images/abilities/Shieldbreaker/Shieldbreaker.ability.four.png"
+				},
+				"Expose": {
+					"image": "/images/abilities/Shieldbreaker/Shieldbreaker.ability.five.png"
+				},
+				"Captivate": {
+					"image": "/images/abilities/Shieldbreaker/Shieldbreaker.ability.six.png"
+				},
+				"Serpent Sway": {
+					"image":"/images/abilities/Shieldbreaker/Shieldbreaker.ability.seven.png"
+				}
+			}
+		},
+		"Musketeer": 
+		{
+			"image": "/images/heroes/musketeer_roster.png",
+			"abbr": "MUSK",
+			"abilities": {
+				"Aimed Shot" : 
+				{ 
+					"image": "/images/abilities/musketeer/Aimed_Shot.png"
+				},
+				"Smokescreen": {
+					"image": "/images/abilities/musketeer/Smokescreen.png"
+				},
+				"Call the Shot": {
+					"image": "/images/abilities/musketeer/Sniper's_Mark.png"
+				},
+				"Buckshot": {
+					"image":"/images/abilities/musketeer/Buckshot.png"
+				},
+				"Sidearm": {
+					"image": "/images/abilities/musketeer/Sidearm.png"
+				},
+				"Patch Up": {
+					"image": "/images/abilities/musketeer/Battlefield_Bandage.png"
+				},
+				"Skeet Shot": {
+					"image":"/images/abilities/musketeer/Skeet_Shot.png"
 				}
 			}
 		}

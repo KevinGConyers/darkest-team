@@ -1,0 +1,213 @@
+{
+    "pvp": {
+        "General": 
+        {
+            "Test Trinket One pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			}, 
+			"Test Trinket Two pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
+            }
+        },
+        "Abomination": 
+		{  
+			"Abom Test Trinket One pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			}, 
+			"Abom Test Trinket Two pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
+            }
+		},
+		"Antiquarian": 
+		{
+			"Anti Test Trinket One pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			}, 
+			"Anti Test Trinket Two pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
+            }
+		},
+		"Arbalest": 
+		{
+			"Arb Test Trinket One pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			}, 
+			"Arb Test Trinket Two pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
+            }	 
+		},
+		"Bounty Hunter": 
+		{
+			"BH Test Trinket One pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			}, 
+			"BH Test Trinket Two pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
+            }	
+		},
+		"Crusader":
+		{
+			"Crusader Test Trinket One pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			}, 
+			"Crusader Test Trinket Two pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
+            }	
+		},
+		"Grave Robber": 
+		{
+			"GR Test Trinket One pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			}, 
+			"GR Test Trinket Two pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
+            }	
+		},
+		"Hellion": 
+		{
+			"HELL Test Trinket One pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			}, 
+			"HELL Test Trinket Two pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
+            }
+        },
+		"Highwayman": 
+		{
+			"HWMN Test Trinket One pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			}, 
+			"HWMN Test Trinket Two pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
+            }	
+		},
+		"Houndmaster": 
+		{
+			"Hound Test Trinket One pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			}, 
+			"Hound Test Trinket Two pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
+            }	
+		},
+		"Jester": 
+		{
+			"Jest Test Trinket One pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			}, 
+			"Jest Test Trinket Two pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
+            }	
+		},
+		"Leper": 
+		{
+			"Leper Test Trinket One pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			}, 
+			"Leper Test Trinket Two pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
+            }	
+		},
+		"Man at Arms": 
+		{
+			"MaA Test Trinket One pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			}, 
+			"MaA Test Trinket Two pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
+            }	
+		}, 
+		"Occultist": 
+		{
+			"Occ Test Trinket One pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			}, 
+			"Occ Test Trinket Two pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
+            }	
+		}, 
+		"Plague Doctor": 
+		{
+			"PD Test Trinket One pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			}, 
+			"PD Test Trinket Two pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
+            }	
+		}, 
+		"Vestal": 
+		{
+			"Vest Test Trinket One pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			}, 
+			"Vest Test Trinket Two pvp": {
+                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
+            }	
+		}
+    },
+    "pve": {
+        "General": 
+        {
+
+        },
+        "Abomination": 
+		{  
+			
+		},
+		"Antiquarian": 
+		{
+			
+		},
+		"Arbalest": 
+		{
+			 
+		},
+		"Bounty Hunter": 
+		{
+			
+		},
+		"Crusader":
+		{
+			
+		},
+		"Grave Robber": 
+		{
+			
+		},
+		"Hellion": 
+		{
+        },
+		"Highwayman": 
+		{
+			
+		},
+		"Houndmaster": 
+		{
+			
+		},
+		"Jester": 
+		{
+			
+		},
+		"Leper": 
+		{
+			
+		},
+		"Man at Arms": 
+		{
+			
+		}, 
+		"Occultist": 
+		{
+			
+		}, 
+		"Plague Doctor": 
+		{
+			
+		}, 
+		"Vestal": 
+		{
+			
+		}
+    }
+}

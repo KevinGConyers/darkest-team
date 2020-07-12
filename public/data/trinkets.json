@@ -333,10 +333,10 @@
 		"Plague Doctor": 
 		{
 			"Acrid Vial": {
-                "image": "/images/trinkets/pvp/plague_doctor/Inv_trinket_hazard_mask.png"
+                "image": "/images/trinkets/pvp/plague_doctor/Inv_trinket_acrid_vial.png"
 			}, 
 			"Amputation Saw": {
-                "image": "/images/trinkets/pvp/plague_doctor/Inv_trinket_hazard_mask.png"
+                "image": "/images/trinkets/pvp/plague_doctor/Inv_trinket_amputation_saw.png"
 			}, 
 			"Hazard Mask": {
                 "image": "/images/trinkets/pvp/plague_doctor/Inv_trinket_hazard_mask.png"

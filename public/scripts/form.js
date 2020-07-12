@@ -116,10 +116,7 @@ function generateAbilitySelection(select_id, ability_pane_id) {
 			sel = $('#'+cur_select);
 			num = 1;
 			$.each(data, function(key) {
-				console.log(sel[0]["id"].slice(sel[0]["id"].length - 1));
 				let ability_num = parseInt(sel[0]["id"].slice(sel[0]["id"].length - 1));
-				console.log(num + " " + ability_num);
-				console.log(key);
 						if(num == ability_num) {
 								sel.append($('<option></option>').attr({'value': key, 'selected': 'selected'}).text(key));
 							} else {
@@ -141,13 +138,22 @@ function generateTrinketSelectionPVP(select_id, trinket_pane_id) {
 		let cur_select = trinket_pane_id + "-" + i.toString();
 		getPvpTrinkets(hero_name, function(all_trinkets, class_trinkets) {
 			sel = $('#'+cur_select);
+			sel.append($('<option></option>').attr({'value': "Class Trinkets", 'disabled': 'disabled'}).text("Class Trinkets"));
+			trinket_number = 1;
+			$.each(class_trinkets, function(key) {
+				console.log("Trinket: " + trinket_number + " i: " + i.toString());
+				let cur_trinket_slot = parseInt(sel[0]["id"].slice(sel[0]["id"].length - 1));
+				if(trinket_number == cur_trinket_slot) {
+					sel.append($('<option></option>').attr({'value': key, 'selected': 'selected'}).text(key));
+				} else {
+					sel.append($('<option></option>').attr({'value': key}).text(key));
+				}
+				trinket_number++;
+			});
+			sel.append($('<option></option>').attr({'value': "All Hero Trinkets", 'disabled': 'disabled'}).text("All Hero Trinkets"));
 			$.each(all_trinkets, function(key) {
 				//console.log(sel[0]["id"].slice(sel[0]["id"].length - 1));
-				sel.append($('<option></option>').attr({'value': key, 'selected': 'selected'}).text(key));
-			});
-			$.each(class_trinkets, function(key) {
-				//console.log(sel[0]["id"].slice(sel[0]["id"].length - 1));
-				sel.append($('<option></option>').attr({'value': key, 'selected': 'selected'}).text(key));
+				sel.append($('<option></option>').attr({'value': key}).text(key));
 			});
 		});
 	}

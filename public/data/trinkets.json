@@ -2,147 +2,378 @@
     "pvp": {
         "General": 
         {
-            "Test Trinket One pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
-			}, 
-			"Test Trinket Two pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
-            }
+			"Ankh of Life": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_ankh_of_life.png"
+			},
+			"Bloodstained Gambeson": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_bloodstained_gambeson.png"
+			},
+			"Brass Bugle": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_brass_bugle.png"
+			},
+			"Brass Knuckles": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_brass_knuckles.png"
+			},
+			"Carnival Masque": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_carnvial_masque.png"
+			},
+			"Crimson Hook": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_crimson_hook.png"
+			},
+			"Crushed Hemlock": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_crushed_hemlock.png"
+			},
+			"Eagel Eye Talisman": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_eagle_eye_talisman.png"
+			},
+			"Eerie Eye": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_eerie_eye.png"
+			},
+			"Exotic Snuff": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_exotic_snuff.png"
+			},
+			"Galdiator Helmet": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_gladiator_helmet.png"
+			},
+			"Hunters Charm": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_hunters_charm.png"
+			},
+			"Jagged Chopper": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_jagged_chopper.png"
+			},
+			"Monkey Paw": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_monkey_paw.png"
+			},
+			"Nepenthe": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_nepenthe.png"
+			},
+			"Numbing Incense": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_numbing_incense.png"
+			},
+			"Pitfighter Helm": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_pitfighter_helm.png"
+			},
+			"Rancid Cure All": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_rancid_cure_all.png"
+			},
+			"Retarius": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_retarius_net.png"
+			},
+			"Rotting Trophy": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_rotting_trophy.png"
+			},
+			"Sanity Bane": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_sanity_bane.png"
+			},
+			"Silver Syringe": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_silver_syringe.png"
+			},
+			"Spiked Bat": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_spiked_bat.png"
+			},
+			"The Finisher": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_the_finisher.png"
+			},
+			"Treated Bandage": {
+				"image": "/images/trinkets/pvp/all_heroes/Inv_trinket_treated_bandage.png"
+			}
         },
         "Abomination": 
 		{  
-			"Abom Test Trinket One pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			"Clasp of the Beast": {
+                "image": "/images/trinkets/pvp/abomination/Inv_trinket_clasp_of_the_beast.png"
 			}, 
-			"Abom Test Trinket Two pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
-            }
+			"Shattered Padlock": {
+                "image": "/images/trinkets/pvp/abomination/Inv_trinket_shattered_padlock.png"
+			},
+			"Spiked Chain": {
+                "image": "/images/trinkets/pvp/abomination/Inv_trinket_spiked_chain.png"
+			},
+			"Taste of Granduer": {
+                "image": "/images/trinkets/pvp/abomination/Inv_trinket_taste_of_granduer.png"
+			},
+			"Wretch Cloak": {
+                "image": "/images/trinkets/pvp/abomination/Inv_trinket_wretch_cloak.png"
+			}
 		},
 		"Antiquarian": 
 		{
-			"Anti Test Trinket One pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
-			}, 
-			"Anti Test Trinket Two pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
-            }
+			"Black Diamond Mirror" :
+			{
+				"image": "/images/trinkets/pvp/antiquarian/Inv_trinket_black_diamond_mirror.png"
+			},
+			"Ghoul Claw" :
+			{
+				"image": "/images/trinkets/pvp/antiquarian/Inv_trinket_ghoul_claw.png"
+			},
+			"Impossible Glyph" :
+			{
+				"image": "/images/trinkets/pvp/antiquarian/Inv_trinket_black_impossible_glyph.png"
+			},
+			"Materia Pestis" :
+			{
+				"image": "/images/trinkets/pvp/antiquarian/Inv_trinket_materia_pestis.png"
+			},
+			"Tears of the Lost" :
+			{
+				"image": "/images/trinkets/pvp/antiquarian/Inv_trinket_tears_of_the_lost.png"
+			}
 		},
 		"Arbalest": 
 		{
-			"Arb Test Trinket One pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
-			}, 
-			"Arb Test Trinket Two pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
-            }	 
+			"Medic Fullplate": 
+			{
+				"image": "/images/trinkets/pvp/arbelest/Inv_trinket_medic_fullplate.png"
+			},
+			"Piercing Quarrel": 
+			{
+				"image": "/images/trinkets/pvp/arbelest/Inv_trinket_piercing_quarrel.png"
+			},
+			"Stabilizing Tiller": 
+			{
+				"image": "/images/trinkets/pvp/arbelest/Inv_trinket_stabilizing_tiller.png"
+			},	 
+			"Weighted Bolas": 
+			{
+				"image": "/images/trinkets/pvp/arbelest/Inv_trinket_weighted_bolas.png"
+			}	 
 		},
 		"Bounty Hunter": 
 		{
-			"BH Test Trinket One pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			"Bounty Notice": {
+                "image": "/images/trinkets/pvp/bounty_hunter/Inv_trinket_bounty_notice.png"
 			}, 
-			"BH Test Trinket Two pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
-            }	
+			"Grappling Mits": {
+                "image": "/images/trinkets/pvp/bounty_hunter/Inv_trinket_grappling_mits.png"
+			}, 
+			"Heartseeker": {
+                "image": "/images/trinkets/pvp/bounty_hunter/Inv_trinket_heartseeker.png"
+			}, 
+			"Infamous Visage": {
+                "image": "/images/trinkets/pvp/bounty_hunter/Inv_trinket_infamous_visage.png"
+			}
 		},
 		"Crusader":
 		{
-			"Crusader Test Trinket One pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			"Battle Scarred Helm": {
+                "image": "/images/trinkets/pvp/crusader/Inv_trinket_battle_scarred_helm.png"
 			}, 
-			"Crusader Test Trinket Two pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
-            }	
+			"Glorious Standard": {
+                "image": "/images/trinkets/pvp/crusader/Inv_trinket_glorious_standard.png"
+			}, 
+			"Sacred Blade": {
+                "image": "/images/trinkets/pvp/crusader/Inv_trinket_sacred_blade.png"
+			}, 
+			"Writ of Execution": {
+                "image": "/images/trinkets/pvp/crusader/Inv_trinket_writ_of_execution.png"
+			}	
+		},
+		"Flagellant": 
+		{
+			"Confessor Gauntlet": {
+                "image": "/images/trinkets/pvp/flagellant/Inv_trinket_confessor_guantlet.png"
+			}, 
+			"Crown of Thorns": {
+                "image": "/images/trinkets/pvp/flagellant/Inv_trinket_crown_of_thorns.png"
+			}, 
+			"Gauntlet of Absolution": {
+                "image": "/images/trinkets/pvp/flagellant/Inv_trinket_guantlet_of_absolution.png"
+			}, 
+			"Last Breath Collar": {
+                "image": "/images/trinkets/pvp/flagellant/Inv_trinket_last_breath_collar.png"
+			},
+			"Madman Collar": {
+                "image": "/images/trinkets/pvp/flagellant/Inv_trinket_madman_collar.png"
+			}
 		},
 		"Grave Robber": 
 		{
-			"GR Test Trinket One pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			"Cloack and Dagger": {
+                "image": "/images/trinkets/pvp/grave_robber/Inv_trinket_cloak_and_dagger.png"
 			}, 
-			"GR Test Trinket Two pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
-            }	
+			"Leather Bandolier": {
+                "image": "/images/trinkets/pvp/grave_robber/Inv_trinket_leather_bandolier.png"
+			}, 
+			"Satchel of Dirty Tricks": {
+                "image": "/images/trinkets/pvp/grave_robber/Inv_trinket_satchel_of_dirty_tricks.png"
+			}, 
+			"Well Balanced Stilleto": {
+                "image": "/images/trinkets/pvp/grave_robber/Inv_trinket_well_balanced_stiletto.png"
+			}
 		},
 		"Hellion": 
 		{
-			"HELL Test Trinket One pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			"Bone Vest": {
+                "image": "/images/trinkets/pvp/hellion/Inv_trinket_bone_vest.png"
 			}, 
-			"HELL Test Trinket Two pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
-            }
+			"Executioner Halberd": {
+                "image": "/images/trinkets/pvp/hellion/Inv_trinket_executioner_halberd.png"
+			}, 
+			"Razor Pin": {
+                "image": "/images/trinkets/pvp/hellion/Inv_trinket_razor_pin.png"
+			}, 
+			"Savage Guantles": {
+                "image": "/images/trinkets/pvp/hellion/Inv_trinket_savage_guantlets.png"
+			}
         },
 		"Highwayman": 
 		{
-			"HWMN Test Trinket One pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			"Duelist Pistol": {
+                "image": "/images/trinkets/pvp/highwayman/Inv_trinket_duelist_pistol.png"
 			}, 
-			"HWMN Test Trinket Two pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
-            }	
+			"Grim Banadana": {
+                "image": "/images/trinkets/pvp/highwayman/Inv_trinket_grim_bandana.png"
+			}, 
+			"Parrying Dagger": {
+                "image": "/images/trinkets/pvp/highwayman/Inv_trinket_parrying_dagger.png"
+			}, 
+			"Powder Flask": {
+                "image": "/images/trinkets/pvp/highwayman/Inv_trinket_powder_lask.png"
+			},
+			"Sturdy Buckle": {
+                "image": "/images/trinkets/pvp/highwayman/Inv_trinket_sturdy_buckle.png"
+			}
 		},
 		"Houndmaster": 
 		{
-			"Hound Test Trinket One pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			"Attack Whistle": {
+                "image": "/images/trinkets/pvp/houndmaster/Inv_trinket_attacked_whistle.png"
 			}, 
-			"Hound Test Trinket Two pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
-            }	
+			"Padded Armgaurd": {
+                "image": "/images/trinkets/pvp/houndmaster/Inv_trinket_padded_armguard.png"
+			}, 
+			"Tattered Chewtoy": {
+                "image": "/images/trinkets/pvp/houndmaster/Inv_trinket_tattered_chewtoy.png"
+			}, 
+			"Training Whistle": {
+                "image": "/images/trinkets/pvp/houndmaster/Inv_trinket_training_whistle.png"
+			}
 		},
 		"Jester": 
 		{
-			"Jest Test Trinket One pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			"Blood Red Coin": {
+                "image": "/images/trinkets/pvp/jester/Inv_trinket_blood_red_coin.png"
 			}, 
-			"Jest Test Trinket Two pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
-            }	
+			"Harlequin Masque": {
+                "image": "/images/trinkets/pvp/jester/Inv_trinket_harlequin_masque.png"
+			}, 
+			"Reaper Shroud": {
+                "image": "/images/trinkets/pvp/jester/Inv_trinket_reaper_shroud.png"
+			}, 
+			"Well Tuned Lute": {
+                "image": "/images/trinkets/pvp/jester/Inv_trinket_well_tuned_lute.png"
+			}
 		},
 		"Leper": 
 		{
-			"Leper Test Trinket One pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			"Durable Armlet": {
+                "image": "/images/trinkets/pvp/leper/Inv_trinket_durable_armlet.png"
 			}, 
-			"Leper Test Trinket Two pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
-            }	
+			"Gladiator Mask": {
+                "image": "/images/trinkets/pvp/leper/Inv_trinket_gladiator_mask.png"
+			}, 
+			"Invigorating Balm": {
+                "image": "/images/trinkets/pvp/leper/Inv_trinket_invigorating_balm.png"
+			}, 
+			"Sharpening Stone": {
+                "image": "/images/trinkets/pvp/leper/Inv_trinket_sharpening_stone.png"
+			}	
 		},
 		"Man at Arms": 
 		{
-			"MaA Test Trinket One pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			"Insignia of Rank": {
+                "image": "/images/trinkets/pvp/man_at_arms/Inv_trinket_insignia_of_rank.png"
 			}, 
-			"MaA Test Trinket Two pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
-            }	
+			"Protector Kite": {
+                "image": "/images/trinkets/pvp/man_at_arms/Inv_trinket_protector_kite.png"
+			}, 
+			"Shield Spike": {
+                "image": "/images/trinkets/pvp/man_at_arms/Inv_trinket_shield_Spike.png"
+			}, 
+			"Survivor Eyepatch": {
+                "image": "/images/trinkets/pvp/man_at_arms/Inv_trinket_survivor_eyepatch.png"
+			},
+			"Veteran Guantlet": {
+                "image": "/images/trinkets/pvp/man_at_arms/Inv_trinket_veteran_gauntlet.png"
+			}	
+		}, 
+		"Musketeer": 
+		{
+			"Buckshot Cartridge": {
+                "image": "/images/trinkets/pvp/musketeer/Inv_trinket_buckshot_cartridge.png"
+			}, 
+			"Iron Sights": {
+                "image": "/images/trinkets/pvp/musketeer/Inv_trinket_iron_sights.png"
+			}, 
+			"Minie Ball": {
+                "image": "/images/trinkets/pvp/musketeer/Inv_trinket_minie_ball.png"
+			}, 
+			"Tincture of Iodine": {
+                "image": "/images/trinkets/pvp/musketeer/Inv_trinket_tincture_of_iodine.png"
+			}	
 		}, 
 		"Occultist": 
 		{
-			"Occ Test Trinket One pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			"Bleeding Skull": {
+                "image": "/images/trinkets/pvp/occultist/Inv_trinket_bleeding_skull.png"
 			}, 
-			"Occ Test Trinket Two pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
-            }	
+			"Calling Saltes": {
+                "image": "/images/trinkets/pvp/occultist/Inv_trinket_calling_saltes.png"
+			}, 
+			"Fleshbound Grimiore": {
+                "image": "/images/trinkets/pvp/occultist/Inv_trinket_fleshbound_grimoire.png"
+			}, 
+			"Hand of Glory": {
+                "image": "/images/trinkets/pvp/occultist/Inv_trinket_hand_of_glory.png"
+			},
+			"Sacrificial Kris": {
+                "image": "/images/trinkets/pvp/occultist/Inv_trinket_sacrificial_kris.png"
+			}
 		}, 
 		"Plague Doctor": 
 		{
-			"PD Test Trinket One pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			"Acrid Vial": {
+                "image": "/images/trinkets/pvp/plague_doctor/Inv_trinket_hazard_mask.png"
 			}, 
-			"PD Test Trinket Two pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
-            }	
+			"Amputation Saw": {
+                "image": "/images/trinkets/pvp/plague_doctor/Inv_trinket_hazard_mask.png"
+			}, 
+			"Hazard Mask": {
+                "image": "/images/trinkets/pvp/plague_doctor/Inv_trinket_hazard_mask.png"
+			}, 
+			"Volatile Concoction": {
+                "image": "/images/trinkets/pvp/plague_doctor/Inv_trinket_volatile_concoction.png"
+			}	
 		}, 
+		"Shieldbreaker": 
+		{
+			"Fang Talisman": {
+                "image": "/images/trinkets/pvp/Shieldbreaker/Inv_trinket_fang_talisman.png"
+			}, 
+			"Gracefule Anklet": {
+                "image": "/images/trinkets/pvp/Shieldbreaker/Inv_trinket_graceful_anklet.png"
+			}, 
+			"Scale Shoulder": {
+                "image": "/images/trinkets/pvp/Shieldbreaker/Inv_trinket_scaled_shoulder.png"
+			}, 
+			"Viper Spear Tip": {
+                "image": "/images/trinkets/pvp/Shieldbreaker/Inv_trinket_viper_spear_tip.png"
+			}	
+		},
 		"Vestal": 
 		{
-			"Vest Test Trinket One pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Necklace_trinket.png"
+			"Gleaming Breastplate": {
+                "image": "/images/trinkets/pvp/vestal/Inv_trinket_gleaming_breastplate.png"
 			}, 
-			"Vest Test Trinket Two pvp": {
-                "image": "/images/trinkets/pvp/all_heroes/Stake_trinket.png"
-            }	
+			"Idol of Purity": {
+                "image": "/images/trinkets/pvp/vestal/Inv_trinket_idol_of_purity.png"
+			}, 
+			"Purgation Talisman": {
+                "image": "/images/trinkets/pvp/vestal/Inv_trinket_purgation_talisman.png"
+			}, 
+			"Tome of Fury": {
+                "image": "/images/trinkets/pvp/vestal/Inv_trinket_tome_of_fury.png"
+			}	
 		}
     },
     "pve": {

@@ -1,0 +1,154 @@
+/********************
+ * STATIC ELEMENTS  *
+ ********************/
+
+ul.nav {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul.nav li {
+    float: left;
+  }
+  
+  ul.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  ul.nav li a:hover {
+    background-color: #111;
+  }
+  
+  ul.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.7em;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  
+  }
+  
+  ul.footer li {
+    float: left;
+    
+    width: 50%;
+  }  
+
+
+/********************
+ * Form Style       *
+ ********************/
+
+  form.hero_form {
+    border: 5px solid #ccc;
+    width: 600px;
+    height: auto;
+    float: left;
+  }
+
+  select.hero_select {
+    border: 5px solid #ccc;
+    margin: 10px;
+    float: left;
+    width: 128px;
+    height: auto;
+    background-color: transparent;
+    min-width: 50px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+
+
+/********************
+ * Hero Images      *
+ ********************/
+
+  div.hero_gallery {
+    border: 5px solid #ccc;
+    margin: 5px;
+    float: left;
+    width: 128px;
+    height: 128px;
+  }
+  div.hero_gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.ability_gallery {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    margin: 10px;
+    float: left;
+    width: 128px;
+    height: 128px;
+  }
+  
+  div.ability_gallery_item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    
+  }
+  div.ability_gallery_item img {
+    width: 99%;
+    height: 100%;
+    
+  }
+
+/*********************
+ * Ability Selection *
+ *********************/
+
+  div.ability_pane {
+    border: 5px solid #E64A19; 
+     margin: 5px;
+     float: left;
+     width: 128px;
+     height: auto;
+     background-color: transparent;
+     min-width: 50px;
+     -webkit-transition: all 0.1s ease-in-out;
+     -moz-transition: all 0.1s ease-in-out;
+     -ms-transition: all 0.1s ease-in-out;
+     -o-transition: all 0.1s ease-in-out;
+     transition: all 0.1s ease-in-out;
+   }
+
+
+/*********************
+ * Trinket Selection *
+ *********************/
+
+ div.trinket_pane {
+  border: 5px solid #E64A19; 
+   margin: 5px;
+   float: left;
+   width: 128px;
+   height: auto;
+   background-color: transparent;
+   min-width: 50px;
+   -webkit-transition: all 0.1s ease-in-out;
+   -moz-transition: all 0.1s ease-in-out;
+   -ms-transition: all 0.1s ease-in-out;
+   -o-transition: all 0.1s ease-in-out;
+   transition: all 0.1s ease-in-out;
+ }

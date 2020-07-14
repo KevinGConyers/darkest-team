@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Team Builder</title>
-		<link rel="stylesheet" type="text/css" href="/css/style.css">
+		<link rel="stylesheet" type="text/css" href="/css/mainPage.css">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165680210-2"></script>
@@ -20,7 +20,7 @@ console.log("Analytics script fired");
 	</head>
 	<body>
 	<%- include('static_components/nav.html') %>
-		<div class="hero_form">
+		<div class="form_container">
 			<div class="hero_gallery">
 				<img id="Hero4" src="/images/heroes/vestal_roster.png" alt="Position Four" width="96" height="96">
 			</div>
@@ -34,7 +34,7 @@ console.log("Analytics script fired");
 				<img id="Hero1" src="/images/heroes/crusader_roster.png" alt="Position One" width="96" height="96">
 			</div>
 			<br></br>
-		</div>
+		
 		<form class="hero_form" action="/" method="post">
 			<select class="hero_select" name="hero4" id="hero4_select"></select>
 			<select class="hero_select" name="hero3" id="hero3_select"></select>
@@ -53,6 +53,7 @@ console.log("Analytics script fired");
 			<br></br>
 			<input type="submit" class="ghost-button" value="Generate Preview">
 		</form>
+		</div>
 	<ul class="footer">
 		<li class="footer_element"><%- include('static_components/copyright.html'); %></li>
 		<li class="footer_element"><%- include('static_components/contact.html'); %></li>
